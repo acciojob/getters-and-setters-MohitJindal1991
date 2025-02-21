@@ -5,18 +5,13 @@ class Person {
     }
 
     // Getter for name
-    get name() {
+    getname() {
         return this._name;
     }
 
     // Setter for age
-    set age(age) {
+    setage(age) {
         this._age = age;
-    }
-
-    // Getter for age (to allow reading age after setting)
-    get age() {
-        return this._age;
     }
 }
 

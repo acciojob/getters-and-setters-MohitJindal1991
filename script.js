@@ -1,8 +1,13 @@
 //complete this code
 class Person {
 
-	getname(name){
+	constructor(name,age){
 		this.name=name;
+		this.age=age;
+	}
+
+	getname(name){
+		return name;
 	}
 	setage(age){
 		this.age=age;

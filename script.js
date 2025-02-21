@@ -6,8 +6,8 @@ class Person {
 		this.age=age;
 	}
 
-	getname(name){
-		return name;
+	getname(){
+		return this.name;
 	}
 	setage(age){
 		this.age=age;
